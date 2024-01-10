@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+    tools:context=".Bank">
+
+    <View
+        android:id="@+id/view14"
+        android:layout_width="375dp"
+        android:layout_height="547dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/search_view_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tool2" />
+
+    <View
+        android:id="@+id/tool2"
+        android:layout_width="415dp"
+        android:layout_height="78dp"
+        android:background="@drawable/rectangletool"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="92dp"
+        android:text="@string/Holder"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t6" />
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Bank"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/CardNo"
+        app:layout_constraintStart_toStartOf="@+id/textView43"
+        app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Expiry"
+        app:layout_constraintStart_toStartOf="@+id/EditTextcardNumber"
+        app:layout_constraintTop_toBottomOf="@+id/EditTextcardNumber" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CVV"
+        app:layout_constraintStart_toStartOf="@+id/EditTextexpiryDate"
+        app:layout_constraintTop_toBottomOf="@+id/EditTextexpiryDate" />
+
+    <EditText
+        android:id="@+id/holderName"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:autofillHints="@string/EnterName"
+        android:backgroundTint="@color/orange"
+        android:ems="10"
+        android:hint="@string/EnterName"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textView43"
+        app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+    <EditText
+        android:id="@+id/EditTextcardNumber"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:autofillHints="@string/EnterCardNo"
+        android:backgroundTint="@color/orange"
+        android:ems="10"
+        android:hint="@string/EnterCardNo"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textView44"
+        app:layout_constraintTop_toBottomOf="@+id/textView44" />
+
+    <EditText
+        android:id="@+id/EditTextexpiryDate"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:autofillHints="@string/ExpiryDate"
+        android:backgroundTint="@color/orange"
+        android:ems="10"
+        android:hint="@string/ExpiryDate"
+        android:inputType="date"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textView45"
+        app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+    <EditText
+        android:id="@+id/EditTextcvv"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:autofillHints="@string/cvv"
+        android:backgroundTint="@color/orange"
+        android:ems="10"
+        android:hint="@string/cvv"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textView46"
+        app:layout_constraintTop_toBottomOf="@+id/textView46" />
+
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount"
+        app:layout_constraintStart_toStartOf="@+id/EditTextcvv"
+        app:layout_constraintTop_toBottomOf="@+id/EditTextcvv" />
+
+    <EditText
+        android:id="@+id/EditTextAmount"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:autofillHints="Enter Amount"
+        android:backgroundTint="@color/orange"
+        android:ems="10"
+        android:hint="Enter Amount"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/t4"
+        app:layout_constraintTop_toBottomOf="@+id/t4" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/orange"
+        android:elevation="10dp"
+        android:text="@string/Done"
+        android:textAllCaps="false"
+        app:cornerRadius="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditTextAmount" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

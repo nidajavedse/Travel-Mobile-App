@@ -1,0 +1,180 @@
+<resources>
+    <string name="app_name">TravelTrunk</string>
+
+    <!-- Splash Screen Screen -->
+    <string name="Welcome">Welcome</string>
+    <string name="Start">Get Started</string>
+    <string name="let">Lets take a trip with us</string>
+
+    <!-- Sign In Screen -->
+    <string name="SignIn">Sign Up</string>
+    <string name="ConfirmPass">Confirm password</string>
+    <string name="signupBtn">Sign Up</string>
+    <string name="HaveAccount">Do you have an account?</string>
+
+    <!-- Login Screen -->
+    <string name="Login">Log In</string>
+    <string name="Email">Email</string>
+    <string name="EnterEmail">Enter your email</string>
+    <string name="EnterPass">Enter your password</string>
+    <string name="Password">Password</string>
+    <string name="Forget">Forget Password</string>
+    <string name="LoginBtn">Log In</string>
+    <string name="or">or</string>
+    <string name="NoAccount">Do not have an account?</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="gmail">you can login via gmail.</string>
+    <string name="fb">you can login via facebook.</string>
+    <string name="twitter">you can login via twitter.</string>
+
+    <!-- User Profile Screen -->
+    <string name="Profile">Profile</string>
+    <string name="lets">Lets personalize your Travel and Trunk experience.</string>
+    <string name="uname">User Name</string>
+    <string name="user">Enter user name</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="Enterfname">Enter first name</string>
+    <string name="Enterlname">Enter last name</string>
+    <string name="dob">Date of birth</string>
+    <string name="Enterdob">Enter date of birth</string>
+    <string name="city">Current City</string>
+    <string name="Entercity">Enter Current City</string>
+    <string name="update">Update</string>
+
+    <!-- Home Screen -->
+    <string name="Home">Home</string>
+    <string name="Chat">My Ticket</string>
+    <string name="Search">Search</string>
+    <string name="loca">Location</string>
+    <string name="Flight">Book Ticket</string>
+    <string name="Top">Top Destination</string>
+    <string name="Istanbul">Istanbul</string>
+    <string name="Paris">Paris</string>
+    <string name="Dub">Dubai</string>
+    <string name="germany">For germany </string>
+    <string name="London">For London </string>
+    <string name="tAirline">Turkish Airline</string>
+    <string name="Money">1000</string>
+    <string name="profile">Profile</string>
+
+    <!-- Payment Screen -->
+    <string name="Checkout">Checkout</string>
+    <string name="Done">Confirm</string>
+    <string name="Payment">Payment method</string>
+    <string name="Card">Card</string>
+    <string name="money">$1000</string>
+    <string name="Holder">Card Holder Name</string>
+    <string name="CardNo">Card Number</string>
+    <string name="Expiry">Expiry Date</string>
+    <string name="CVV">CVV</string>
+    <string name="Ticket">Ticket Price</string>
+    <string name="Fare">Fare Tax</string>
+    <string name="Total">Total Amount</string>
+    <string name="t">$1000</string>
+    <string name="tp">$790</string>
+    <string name="ft">$160</string>
+    <string name="EnterName">Enter your name</string>
+    <string name="EnterCardNo">Enter card number</string>
+    <string name="ExpiryDate">Expiry date</string>
+    <string name="cvv">Enter CVV</string>
+
+    <!-- Search Location -->
+    <string name="search">Search your country ....</string>
+    <string name="location">Location</string>
+    <string name="Confirm">Confirm location</string>
+    <string name="fflight">Search Flight Here .....</string>
+
+    <!-- Find Flight Screen -->
+    <string name="Isl">Islamabad</string>
+    <string name="where">Where are you flying to ?</string>
+    <string name="Enterdes">Enter your destination</string>
+    <string name="UpTrips">Upcoming Trips</string>
+    <string name="all">All  ></string>
+    <string name="popular">Popular</string>
+    <string name="dtime">24 Oct, 12:15</string>
+    <string name="isl">ISL</string>
+    <string name="islamabad">Islamabad</string>
+    <string name="dxb">DXB</string>
+    <string name="dubai">Dubai</string>
+    <string name="atime">14:50</string>
+    <string name="paris">Paris</string>
+    <string name="BookFlight">Book Flight</string>
+    <string name="istanbul">Istanbul</string>
+
+    <!-- Book Flight Screen -->
+    <string name="flight">Flight</string>
+    <string name="Class">Class</string>
+    <string name="boarding">Boarding</string>
+    <string name="terminal">Terminal</string>
+
+    <string name="flightval">LF714</string>
+    <string name="Classval">First</string>
+    <string name="boardingval">11:45</string>
+    <string name="terminalval">12A</string>
+    <string name="boardingpass">Boarding Pass</string>
+    <string name="booknow">Book Now</string>
+    <string name="airline">Airline</string>
+    <string name="airlineval">Turkish Airline</string>
+
+    <!-- Confirm Booking Screen -->
+    <string name="seat">Seat</string>
+    <string name="confirmbooking">Confirm Booking</string>
+
+    <!-- View Booked Flights Screen -->
+    <string name="bookedflights">Booked Flights</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="timing">12:15 - 14:50</string>
+    <string name="time">3:15 - 5:50</string>
+    <string name="turkishairline">Turkish Airline</string>
+    <string name="qatarairways">Qatar Airways</string>
+
+    <!-- Side bar menu Screen -->
+    <string name="namehere">Name Here</string>
+    <string name="home">Home</string>
+    <string name="find">Find Flight</string>
+    <string name="chat">Chat Forum</string>
+    <string name="notification">Notification</string>
+    <string name="messages">Messages</string>
+    <string name="logout">Log Out</string>
+    <string name="booked">My Ticket</string>
+    <string name="pro">Profile</string>
+    <string name="email">youremail@gmail.com</string>
+
+    <!-- List of Flights Screen -->
+    <string name="flights">Flights</string>
+    <string name="auh">AUH</string>
+    <string name="iah">IAH</string>
+    <string name="timeauh">13:00 - 23:50</string>
+    <string name="americanairlines">American Airlines</string>
+    <string name="abudhabi">Abu Dhabi</string>
+    <string name="houston">Houton</string>
+    <string name="ord">ORD</string>
+    <string name="nyc">EWR</string>
+    <string name="timeord">10:45 - 14:00</string>
+    <string name="deltaairlines">Delta Airlines</string>
+    <string name="chicago">Chicago</string>
+    <string name="newyork">New York</string>
+    <string name="timeewr">12:45 - 16:00</string>
+    <string name="etihadairways">Etihad Airways</string>
+
+    <!-- for fb integration -->
+    <string name="facebook_app_id">1234</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+
+    <!-- for book flight form-->
+    <string name="bookflight">Book Flight</string>
+    <string name="selectlocation">Select location</string>
+    <string name="selectdes">Select destination</string>
+    <string name="selecttime">Select time</string>
+    <string name="Time">Time</string>
+    <string name="selectdate">Select date</string>
+    <string name="Date">Date</string>
+    <string name="selectairline">Select airline</string>
+    <string name="Airline">Airline</string>
+    <string name="viewflights">View Flights</string>
+
+</resources>

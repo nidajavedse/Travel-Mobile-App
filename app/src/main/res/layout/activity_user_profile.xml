@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfileActivity">
+
+    <TextView
+        android:id="@+id/Welcome"
+        android:layout_width="106dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/Profile"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/users"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/user"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Welcome" />
+
+    <TextView
+        android:id="@+id/fname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:text="@string/fname"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username" />
+
+    <TextView
+        android:id="@+id/uname"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:text="@string/uname"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/users"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:autofillHints="@string/user"
+        android:backgroundTint="@color/orange"
+        android:ems="10"
+        android:hint="@string/user"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uname"/>
+
+    <EditText
+        android:id="@+id/editTextfname"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:autofillHints="@string/Enterfname"
+        android:backgroundTint="@color/orange"
+        android:ems="10"
+        android:hint="@string/Enterfname"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fname" />
+
+    <TextView
+        android:id="@+id/lname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:text="@string/lname"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextfname" />
+
+    <EditText
+        android:id="@+id/editTextlname"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:autofillHints="@string/Enterlname"
+        android:backgroundTint="@color/orange"
+        android:ems="10"
+        android:hint="@string/Enterlname"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lname" />
+
+    <TextView
+        android:id="@+id/dob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:text="@string/dob"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextlname" />
+
+    <EditText
+        android:id="@+id/editTextdob"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:autofillHints="@string/Enterdob"
+        android:backgroundTint="@color/orange"
+        android:ems="10"
+        android:hint="@string/Enterdob"
+        android:inputType="date"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dob" />
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:text="@string/city"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextdob" />
+
+    <EditText
+        android:id="@+id/editTextcity"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:autofillHints="@string/Entercity"
+        android:backgroundTint="@color/orange"
+        android:ems="10"
+        android:hint="@string/Entercity"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/city" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/editTextcity"
+        app:layout_constraintStart_toStartOf="@id/editTextcity"
+        app:layout_constraintEnd_toEndOf="@id/editTextcity"
+        app:layout_constraintTop_toTopOf="@id/editTextcity"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/orange"
+        android:elevation="10dp"
+        android:text="@string/update"
+        app:cornerRadius="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextcity" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextdob"
+        app:layout_constraintEnd_toEndOf="@+id/editTextdob"
+        app:layout_constraintTop_toTopOf="@+id/editTextdob"
+        app:srcCompat="@drawable/ic_baseline_calendar_month_24"/>
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/listview"
+        app:layout_constraintEnd_toEndOf="@+id/editTextcity"
+        app:layout_constraintTop_toTopOf="@+id/listview"
+        app:srcCompat="@drawable/ic_baseline_location_on_24" />
+
+    <ImageButton
+        android:id="@+id/add"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="@color/grey"
+        android:contentDescription="@string/gmail"
+        android:elevation="2dp"
+        android:padding="2dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/users"
+        app:layout_constraintEnd_toEndOf="@+id/users"
+        app:srcCompat="@drawable/ic_baseline_add_24"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
